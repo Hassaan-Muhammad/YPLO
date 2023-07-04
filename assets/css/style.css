@@ -33,6 +33,20 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.Dubai{
+  
+  background-color: rgb(30, 144, 255) ;
+  color: white;
+  border-radius: 10px;
+  /* padding:5px ; */
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  width: 250px;
+  height: 50px;
+  font-size: x-large;
+
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -411,14 +425,104 @@ h6 {
   }
 }
 
+/*--------------------------------------------------------------
+# villain Section
+--------------------------------------------------------------*/
+#villain {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/GYC\ Logo.png") top center;
+  background-size: cover;
+  position: relative;
+}
 
+#villain:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.582);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#villain .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #villain .container {
+    padding-top: 62px;
+  }
+}
+
+#villain h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#villain h2 {
+  color: #eee;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#villain .btn-get-started {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#villain .btn-get-started:hover {
+  background: rgb(30, 144, 255);
+  border: 2px solidrgb(30, 144, 255);
+}
+
+@media (min-width: 1024px) {
+  #villain {
+    background-attachment: fixed;
+    background: url("../img/tab.jpg") top center;
+
+  }
+}
+
+
+@media (max-width: 768px) {
+  #villain {
+    /* height: 100vh; */
+     background: url("../img/tab.jpg") top center;
+
+  }
+
+  #villain h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #villain h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/HomePage3.jpg") top center;
+  background: url("../img/newhome.jpg") top center;
   background-size: cover;
   position: relative;
 }
