@@ -438,7 +438,7 @@ h6 {
 
 #villain:before {
   content: "";
-  background: rgba(0, 0, 0, 0.582);
+  /* background: rgba(0, 0, 0, 0.582); */
   position: absolute;
   bottom: 0;
   top: 0;
